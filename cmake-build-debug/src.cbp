@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/nbhat/Desktop/NirajBhattarai/src/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 src"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug/src.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/nbhat/Desktop/NirajBhattarai/src/."/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 src/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/nbhat/Desktop/NirajBhattarai/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\nbhat\Desktop\NirajBhattarai\src\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Card.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Card.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/CardCollection.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/CardInterface.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/CardPile.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/CardPile.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Computer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Computer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/DataLayer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/DataLayer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Deck.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Deck.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/DiscardPile.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/DiscardPile.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/DrawPile.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/DrawPile.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Game.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Game.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Human.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Human.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/ISave.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Joker.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Joker.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Player.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Player.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Round.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Round.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Serialization.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/Serialization.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/main.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/nbhat/Desktop/NirajBhattarai/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
